@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+
+.navbar {
+    background-color: #ecfac9;
+    padding: 0;
+    opacity: 0.5;
+    border-radius: 20px;
+    border: 2px solid #000000;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 10px;
+}
+
+.navbar a {
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+    justify-content: center;
+}
+
+.navbar a:hover {
+    background-color: #131212;
+}
