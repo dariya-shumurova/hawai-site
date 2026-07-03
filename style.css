@@ -5,7 +5,7 @@
 
 
 body {
-    font-family: "Forum", serif;
+    font-family: "Libertinus Serif", serif;
 }
 
 .container {
@@ -123,7 +123,7 @@ body {
     cursor: pointer;
 }
 
-.header-btn:hover {
+.btn:hover {
     background-color: #f1f498;
     color: #000000;
 }
@@ -240,4 +240,48 @@ object-fit:cover;
     display:flex;
     justify-content:center;
     align-items:center;
+}
+
+
+.agency {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:100px 10px;
+    background:#f1f4d0;
+
+}
+
+.agency-text span {
+    width: 200px;;
+    font-size: 25px;
+    text-transform: uppercase;
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.btn-column {
+    display: inline-block;
+    background-color: #000000;
+    color: #f1f4d0;
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 12em/2em;
+    width: 300px;
+    height: 50px;
+    border: 2px solid #000000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn-column:hover {
+    background-color: #f1f498;
+    color: #000000;
 }
