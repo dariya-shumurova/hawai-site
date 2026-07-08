@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Comforter+Brush&family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Marck+Script&family=Reggae+One&display=swap');
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -70,14 +72,14 @@ body {
 .hero-img {
     position: absolute;
     top: 0;
-    left: 70%;
+    left: 75%;
     transform: translateX(-140px) rotate(80deg);
     width: 60px;
 }
 
 .hero-img-left {
     position: absolute;
-    width: 400px;
+    width: 300px;
     bottom:  0;
     left: 0;
 }
@@ -90,21 +92,24 @@ body {
 }
 
 .hero-title {
-    font-size: 70px;
+    font-size: 60px;
     color: #000000;
     margin-bottom: 30px;
+      font-family: "Reggae One", system-ui;
 }
 
 .hero-text {
-    font-size: 55px;
+    font-size: 50px;
     color: #000000;
     margin-bottom: 30px;
+     font-family: "Reggae One", system-ui;
 }
 
 .hero-description {
     color: #000000;
     max-width:600px;
     margin:0 auto 30px;
+     font-family: "Reggae One", system-ui;
 }
 
 .btn {
@@ -167,6 +172,7 @@ object-fit:cover;
     font-size: 50px;
     margin-bottom: 50px;
     text-transform: uppercase;
+     font-family: "Reggae One", system-ui;
 }
 
 .card p {
