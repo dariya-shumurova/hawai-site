@@ -23,10 +23,10 @@ body {
 
 .navbar {
     background: rgba(240,240,204,.7);
-    color: #000000;
+    color: #2d2d2d;
     padding: 0;
     border-radius: 20px;
-    border: 2px solid #000000;
+    border: 2px solid #2d2d2d;
     width: 100%;
     display: flex;
     align-items: center;
@@ -45,7 +45,7 @@ body {
 
 .navbar-li a {
     text-decoration: none;
-    color: #0b0000;
+    color: #2d2d2d;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 15px;
@@ -61,6 +61,7 @@ body {
     position: relative;
     background: #f1f4d0;
     padding:100px 20px;
+     font-family: "Reggae One", system-ui;
 }
 
 .hero-content {
@@ -93,20 +94,20 @@ body {
 
 .hero-title {
     font-size: 60px;
-    color: #000000;
+    color: #2d2d2d;
     margin-bottom: 30px;
       font-family: "Reggae One", system-ui;
 }
 
 .hero-text {
     font-size: 50px;
-    color: #000000;
+    color: #2d2d2d;
     margin-bottom: 30px;
      font-family: "Reggae One", system-ui;
 }
 
 .hero-description {
-    color: #000000;
+    color: #2d2d2d;
     max-width:600px;
     margin:0 auto 30px;
      font-family: "Reggae One", system-ui;
@@ -114,18 +115,19 @@ body {
 
 .btn {
     display: inline-block;
-    background-color: #000000;
+    background-color: #2d2d2d;
     color: #f1f4d0;
     text-decoration: none;
     padding: 15px 45px;
     border-radius: 12em/2em;
     width: 300px;
     height: 60px;
-    border: 2px solid #000000;
+    border: 2px solid #2d2d2d;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 20px;
     cursor: pointer;
+    font-family: "Reggae One", system-ui;
 }
 
 .btn:hover {
@@ -172,15 +174,16 @@ object-fit:cover;
     font-size: 50px;
     margin-bottom: 50px;
     text-transform: uppercase;
-     font-family: "Reggae One", system-ui;
+    font-family: "Reggae One", system-ui;
 }
 
 .card p {
     padding: 20px 20px;
     text-align: center;
     font-size: 16px;
-    color: #000000;
+    color: #2d2d2d;
     text-transform: uppercase;
+     font-family: "Reggae One", system-ui;
 }
 
 .cards {
@@ -189,6 +192,7 @@ object-fit:cover;
     align-items: center;
     flex-wrap: wrap;
     margin-top: 50px;
+     font-family: "Reggae One", system-ui;
 }
 
 .bg-image-right{
@@ -217,7 +221,7 @@ object-fit:cover;
     height: 350px;
     background: #f1f4d0;
     border-radius: 20px;
-    border: 1.5px solid #000000;
+    border: 1.5px solid #2d2d2d;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     margin-bottom: 30px;
 }
@@ -225,13 +229,11 @@ object-fit:cover;
 .card ul {
     padding-left:30px;
     font-size: 16px;
-
 }
 
 .card li {
     margin:20px 20px;
-    font-size: 16px;
-
+    font-size: 14px;
 }
 
 .card span{
@@ -240,7 +242,7 @@ object-fit:cover;
     top:-18px;
     width:36px;
     height:36px;
-    background:#222;
+    background:#2d2d2d;
     color:white;
     border-radius:50%;
     display:flex;
@@ -248,46 +250,75 @@ object-fit:cover;
     align-items:center;
 }
 
+.agency{
 
-.agency {
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:100px 10px;
-    background:#f1f4d0;
-
-}
-
-.agency-text span {
-    width: 200px;;
-    font-size: 25px;
-    text-transform: uppercase;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:90px 10%;
+background:#f1f4d0;
 
 }
 
-.buttons {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
+.agency h2{
+
+font-size:42px;
+width:200px;
+font-family: "Reggae One", system-ui;
+color: #2d2d2d;
 }
 
-.btn-column {
+.buttons{
+
+display:flex;
+flex-direction:column;
+gap:20px;
+
+}
+
+.buttons button{
     display: inline-block;
-    background-color: #000000;
+    background-color: #2d2d2d;
     color: #f1f4d0;
     text-decoration: none;
-    padding: 20px 30px;
+    padding: 15px 45px;
     border-radius: 12em/2em;
     width: 300px;
-    height: 50px;
-    border: 2px solid #000000;
+    height: 60px;
+    border: 2px solid #2d2d2d;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    cursor: pointer;
+     font-family: "Reggae One", system-ui;
+}
+
+.buttons button:hover {
+    background-color: #f1f498;
+    color: #2d2d2d;
+}
+
+.footer {
+
+padding:30px;
+text-align:center;
+background: #f4f8ca;
+
+}
+
+.footer ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+
+.footer-li a {
+    text-decoration: none;
+    color: #2d2d2d;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 15px;
-    cursor: pointer;
-}
-
-.btn-column:hover {
-    background-color: #f1f498;
-    color: #000000;
 }
