@@ -72,9 +72,9 @@ body {
 .hero-img {
     position: absolute;
     top: 0;
-    left: 75%;
+    left: 74%;
     transform: translateX(-140px) rotate(80deg);
-    width: 60px;
+    width: 80px;
 }
 
 .hero-img-left {
